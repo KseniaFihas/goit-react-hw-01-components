@@ -1,11 +1,9 @@
-import { Profile } from "./Profile/user_information";
-import user from "./Profile/user.json";
-
-
+import { Profile } from './Profile/user_information';
+import user from './Profile/user.json';
 
 export const App = () => {
   return (
-     <div
+    <div
       style={{
         display: 'flex',
         flexDirection: 'column',
@@ -22,6 +20,6 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-       </div>
+    </div>
   );
 };
